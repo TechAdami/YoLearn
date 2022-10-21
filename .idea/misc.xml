@@ -3,14 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/20191tiimi0283/AndroidStudioProjects/YoLearn/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/20191tiimi0283/AndroidStudioProjects/YoLearn/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
-      </map>
-    </option>
-  </component>
-  <component name="DesignSurface">
-    <option name="filePathToZoomLevelMap">
-      <map>
+        <entry key="..\:/Users/20191tiimi0283/AndroidStudioProjects/YoLearn/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/20191tiimi0283/AndroidStudioProjects/YoLearn/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/20201tiimi0241/AndroidStudioProjects/YoLearnn/app/src/main/res/layout/activity_cadastro.xml" value="0.358695652173913" />
         <entry key="..\:/Users/20201tiimi0241/AndroidStudioProjects/YoLearnn/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
       </map>
