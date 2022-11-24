@@ -5,93 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EE6E73"
-    android:padding="10dp"
-    tools:context=".LoginActivity">
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="200dp"
-        android:layout_height="51dp"
-        android:layout_marginBottom="28dp"
-        android:text="REGISTRAR"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="200dp"
-        android:layout_height="51dp"
-        android:layout_marginBottom="12dp"
-        android:text="ENTRAR"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:text="YoLearn"
-        android:textColor="#FFFFFF"
-        android:textSize="26dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        tools:layout_editor_absoluteY="35dp" />
+    tools:context=".CadastroActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
+        android:id="@+id/imageView"
+        android:layout_width="59dp"
+        android:layout_height="58dp"
         android:background="@drawable/circulo_solido_branco_bg"
         android:padding="10dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="16dp" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="349dp"
-        android:layout_height="27dp"
-        android:layout_marginTop="32dp"
-        android:text="IMERSÃO EM IDIOMAS DA SUA CASA"
-        android:textColor="#000000"
-        android:textColorHint="#000000"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:layout_editor_absoluteX="30dp" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="372dp"
-        android:layout_height="34dp"
-        android:gravity="center_horizontal"
-        android:text="Pratique inglês ou espanhol com falantes fluentes diretamente do seu dispositivo."
-        android:textColor="#FBF5F5"
-        android:textColorLink="#FFF8F8"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        tools:layout_editor_absoluteX="18dp" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="280dp"
-        android:layout_height="280dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:srcCompat="@drawable/foto_inicio" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="282dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
