@@ -14,23 +14,24 @@
         android:theme="@style/Theme.YoLearn"
         tools:targetApi="31">
         <activity
-            android:name=".ProfessorDetalhesActivity"
+            android:name=".activity.ProfessorDetalhesActivity"
             android:exported="false" />
         <activity
-            android:name=".PerfilActivity"
+            android:name=".activity.PerfilActivity"
             android:exported="false" />
         <activity
-            android:name=".HomeActivity"
+            android:name=".activity.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".activity.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".CadastroActivity"
+            android:name=".fragment.AgendaFragment$CadastroActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".activity.MainActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.NoDisplay">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

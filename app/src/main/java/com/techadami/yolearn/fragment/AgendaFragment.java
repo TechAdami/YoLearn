@@ -1,12 +1,15 @@
-package com.techadami.yolearn;
+package com.techadami.yolearn.fragment;
 
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.techadami.yolearn.R;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -60,5 +63,14 @@ public class AgendaFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_agenda, container, false);
+    }
+
+    public static class CadastroActivity extends AppCompatActivity {
+
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_login);
+        }
     }
 }

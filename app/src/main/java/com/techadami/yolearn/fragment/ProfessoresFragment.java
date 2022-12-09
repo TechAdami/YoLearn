@@ -1,4 +1,4 @@
-package com.techadami.yolearn;
+package com.techadami.yolearn.fragment;
 
 import android.os.Bundle;
 
@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.techadami.yolearn.R;
 
 /**
  * A simple {@link Fragment} subclass.

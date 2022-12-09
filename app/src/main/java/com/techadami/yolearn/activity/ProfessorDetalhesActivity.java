@@ -1,8 +1,10 @@
-package com.techadami.yolearn;
+package com.techadami.yolearn.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.techadami.yolearn.R;
 
 public class ProfessorDetalhesActivity extends AppCompatActivity {
 
