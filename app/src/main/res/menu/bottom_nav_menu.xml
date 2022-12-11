@@ -4,5 +4,7 @@
     <item android:icon="@drawable/agendado" />
     <item android:icon="@drawable/favoritos_item_menu" />
     <item android:icon="@drawable/professor_item" />
-    <item android:icon="@drawable/perfil" />
+    <item
+        android:id="@+id/menuPerfil"
+        android:icon="@drawable/perfil" />
 </menu>
